@@ -42,3 +42,5 @@ Include `upstart` in your node's `run_list`:
 ## License and Authors
 
 Author:: tim johnson (tjj9020@gmail.com)
+=======
+# chef_upstart
