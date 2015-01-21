@@ -1,0 +1,17 @@
+name             'gbg_familyfinder'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures gbg_familyfinder_aws'
+long_description 'Installs/Configures gbg_familyfinder_aws'
+version          '0.1.40'
+
+depends 'rvm'
+depends 'gbg_familyfinder'
+depends 'python'
+depends 'gbg_yum_repo'
+depends 'yum-epel'
+depends 'sudo'
+depends 'gbg_sudo'
+depends 'ssh'
+

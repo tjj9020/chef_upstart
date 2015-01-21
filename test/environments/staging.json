@@ -1,0 +1,5 @@
+{
+  "name": "staging",
+  "description": "staging environment",
+  "chef_type": "environment"
+}

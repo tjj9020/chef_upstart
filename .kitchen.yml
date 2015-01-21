@@ -1,0 +1,20 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: chef_zero
+  environments_path: test/environments
+  client_rb:
+    environment: staging
+
+platforms:
+  - name: centos-6.5
+
+suites:
+  - name: default
+    run_list:
+      - recipe[gbg_familyfinder::default]
+    attributes:
+       kitchen:
+           test: true
