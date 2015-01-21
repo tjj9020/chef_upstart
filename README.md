@@ -1,6 +1,6 @@
 # Upstart
 
-This cookbook has a reletively narrow focus.  It solves a need to run
+This cookbook has a relatively narrow focus.  It solves a need to run
 multiple processes of the same script.  A use case would be for running
 multiple ruby scripts for a particular environment.
 
