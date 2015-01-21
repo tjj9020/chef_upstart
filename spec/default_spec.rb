@@ -14,11 +14,5 @@ describe "gbg_familyfinder::default" do
       expect(chef_run).to include_recipe(inc_rec)
     end
   end
-
-#  %w[ff_activity.conf ff_bcp_activity.conf ffm_activity.conf ffm_async_workflow.conf ffm_misc_activity.conf ffm_workflow.conf ff_pf_activity.conf ff_pf_workflow.conf ff_pf_activity.conf ff_pf_workflow.conf ff_sp_activity.conf ff_workflow.conf].each do |file|
-#    it 'configures upstart templates #{file}' do
-#      expect(chef_run).to create_template(file).with(source: file, path: "/etc/init/#{file}", owner: "root", group: "root", mode: "0644")
-#    end
-#  end
 end
 
